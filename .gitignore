@@ -1,0 +1,18 @@
+# Dependencies and build caches
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Test output
+playwright-report/
+test-results*/
+coverage/
+
+# Local files and secrets
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# dev-toolbox.html is intentionally tracked for direct download.
